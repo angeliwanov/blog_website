@@ -1,0 +1,20 @@
+body {
+    max-width: 600px;
+    margin: 50px auto;
+    background-image: url("../images/salmon_salad.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.recipe {
+    text-align: center;
+    background-color: azure;
+    opacity: 0.7;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+

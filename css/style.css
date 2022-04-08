@@ -1,0 +1,84 @@
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacts {
+    color: white;
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+main {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 1/1/3/3;
+    grid-gap: 10px;
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+}
+
+.eat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1/1/2/2;
+    background-image: url("../images/eat.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.train {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1/2/2/3;
+    background-image: url("../images/train.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sleep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2/2/3/3;
+    background-image: url("../images/sleep.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2/1/3/2;
+    background-image: url("../images/recover.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+

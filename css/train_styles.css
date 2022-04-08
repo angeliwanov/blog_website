@@ -1,0 +1,19 @@
+body {
+    max-width: 600px;
+    margin: 200px auto;
+    background-image: url("../images/cindy.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.workout {
+    text-align: center;
+    background-color: azure;
+    opacity: 0.7;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
