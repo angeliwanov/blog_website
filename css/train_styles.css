@@ -1,19 +1,19 @@
 body {
-    max-width: 600px;
-    margin: 200px auto;
-    background-image: url("../images/cindy.jpeg");
+    width: 100%;
+    background-image: url("../images/train.webp");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
+    
 }
 
 
 .workout {
     text-align: center;
     background-color: azure;
-    opacity: 0.7;
+    opacity: 0.8;
     font-weight: bold;
-    padding: 10px;
-    
+    padding: 5%;
+    margin: 5%;
 }
 

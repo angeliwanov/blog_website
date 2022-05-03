@@ -41,6 +41,7 @@ main {
     background-image: url("../images/eat.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 .link{
@@ -57,6 +58,7 @@ main {
     background-image: url("../images/train.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 .sleep{
@@ -67,6 +69,7 @@ main {
     background-image: url("../images/sleep.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 .recover{
@@ -77,6 +80,7 @@ main {
     background-image: url("../images/recover.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 
