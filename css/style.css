@@ -1,37 +1,6 @@
-
-header {
-    background-color: #666;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-    
-}
-
-footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-}
-
-.contacts {
-    color: white;
-    text-decoration: solid;
-    font-size: 20px;
-}
-
-main {
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 1/1/3/3;
-    grid-gap: 10px;
-    width: 100%;
-    height: 100vh;
-    
-    
-    
-}
+@import "headerStyle.css";
+@import "footerStyle.css";
+@import "mainStyle.css";
 
 .eat{
     display: flex;
@@ -42,12 +11,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-}
-
-.link{
-    text-decoration: none;
-    color: white;
-    font-size: 50px;
 }
 
 .train {
