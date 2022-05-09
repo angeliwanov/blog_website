@@ -1,7 +1,10 @@
 body {
     width: 100%;
+    font-size: 100%;
+    display: grid;
     background-image: url("../images/train.webp");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     margin: 0;
     
@@ -17,3 +20,40 @@ body {
     margin: 5%;
 }
 
+@font-face {
+    font-family: 'socialMedia';
+    src:  url('fonts/socialMedia.eot?r956sg');
+    src:  url('fonts/socialMedia.eot?r956sg#iefix') format('embedded-opentype'),
+      url('fonts/socialMedia.ttf?r956sg') format('truetype'),
+      url('fonts/socialMedia.woff?r956sg') format('woff'),
+      url('fonts/socialMedia.svg?r956sg#socialMedia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  .icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'socialMedia' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+
+  .wod > a {
+    text-decoration: none;
+  }
