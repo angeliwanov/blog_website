@@ -4,5 +4,12 @@ header {
     text-align: center;
     font-size: 100%;
     color: white;
-    
+}
+
+header h1 a {
+  color: #fff;
+}
+
+header h1 a:hover {
+  opacity: .5;
 }
